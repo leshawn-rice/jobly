@@ -49,7 +49,7 @@ const Companies = () => {
       </>
     )
   }
-  if (companies.length === 0) {
+  else if (companies.length === 0) {
     return (
       <h1>No Companies Found</h1>
     )
